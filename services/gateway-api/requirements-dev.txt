@@ -2,3 +2,6 @@
 
 pytest
 pytest-cov
+ruff<=0.11.5
+black<=25.1.0
+mypy<=1.15.0

@@ -28,7 +28,7 @@ create-venv:
 		exit 1; \
 	fi
 	$(PYTHON) -m venv $(VENV_NAME); \
-	$(VENV_NAME)/bin/pip install --upgrade pip \
+	$(VENV_NAME)/bin/pip install --upgrade pip
 
 .PHONY: venv
 venv:
