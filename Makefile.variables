@@ -1,0 +1,4 @@
+# Colors
+USE_COLOUR ?= 1
+COLOUR_RED := $(if $(USE_COLOUR),\033[0;31m,)
+END_COLOUR := $(if $(USE_COLOUR),\033[0m,)
